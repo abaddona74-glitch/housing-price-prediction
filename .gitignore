@@ -1,0 +1,28 @@
+.venv/
+# Python cache and notebooks
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts (keep metrics.json)
+data/*.csv
+data/*.parquet
+models/*.joblib
+models/*.pkl
+models/*.bin
+models/*.onnx
+models/predictions.csv
+!models/metrics.json
+
+# Reports and plots
+report/*.png
+report/*.pdf
+report/*.html
+report/*summary*.txt
+report/graphs/

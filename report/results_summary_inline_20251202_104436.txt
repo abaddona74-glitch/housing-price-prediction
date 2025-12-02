@@ -1,0 +1,14 @@
+Run timestamp: 20251202_104436
+Data file: C:\Users\RGB\Desktop\New folder (2)\DM\data\uybor_clean.csv
+Data shape: 7421 rows, 10 columns
+
+=== Metrics ===
+Computed from: C:\Users\RGB\Desktop\New folder (2)\DM\models\predictions.csv
+R^2: 0.9778137752259078
+MSE: 40786392.8497
+RMSE: 6386.4225
+
+=== How results were produced ===
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+Training: inline notebook (LightGBM or sklearn fallback)
+Plots: generated with seaborn/matplotlib and saved to report/
